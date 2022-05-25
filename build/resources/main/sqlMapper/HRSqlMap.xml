@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.approval.test.hr.mapper.HRMapper">
+
+    <select id="selectEmpInfo" parameterType="com.approval.test.hr.dto.EmpDTO" resultType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            SELECT EMP_NUMBER AS empNumber,
+                   EMP_NAME AS empName,
+                   EMP_ID AS empId,
+                   CODE AS positionCode,
+                   c.CODE_NAME AS positionName,
+                   d.DEPT_CODE AS deptCode,
+                   d.DEPT_NAME AS deptName
+            FROM EMP e, CODE c, DEPARTMENT d
+            WHERE EMP_ID = #{empId}
+              AND EMP_PW = md5(#{empPw})
+              AND e.POSITION_CODE = c.CODE
+              AND e.DEPT_CODE = d.DEPT_CODE
+        ]]>
+    </select>
+
+    <insert id="insertEmpInfo" parameterType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            INSERT INTO EMP (EMP_ID, EMP_PW, EMP_NAME, POSITION_CODE, DEPT_CODE, JOIN_DATE, STATUS)
+            VALUES(#{empId}, md5(#{empPw}), #{empName}, #{positionCode}, #{deptCode}, #{joinDate}, 'ES01');
+        ]]>
+    </insert>
+
+    <select id="selectExecutiveEmp" parameterType="com.approval.test.hr.dto.EmpDTO" resultType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            SELECT
+                EMP_NUMBER AS empNumber,
+                EMP_NAME AS empName,
+                CODE AS positionCOde,
+                CODE_NAME AS positionName,
+                e.DEPT_CODE AS deptCode,
+                DEPT_NAME AS deptName
+            FROM
+                EMP e,
+                CODE c,
+                DEPARTMENT d
+            WHERE
+                e.DEPT_CODE = d.DEPT_CODE
+              AND e.POSITION_CODE = c.CODE
+              AND e.POSITiON_CODE > 'PO03'
+        ]]>
+    </select>
+
+    <select id="selectEmpListByCondition" parameterType="com.approval.test.hr.dto.EmpDTO" resultType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            SELECT
+                EMP_NUMBER AS empMumber,
+                EMP_NAME AS empMame,
+                EMP_ID AS empId,
+                e.DEPT_CODE AS deptCode,
+                DEPT_NAME AS deptName,
+                POSITION_CODE AS positionCode,
+                c.CODE_NAME AS positionName
+            FROM
+                EMP e,
+                CODE c,
+                DEPARTMENT d
+            WHERE
+                e.POSITION_CODE = c.CODE
+              AND e.DEPT_CODE = d.DEPT_CODE
+              AND e.DEPT_CODE = 'DE05'
+        ]]>
+    </select>
+
+    <select id="selectAllEmp" parameterType="com.approval.test.hr.dto.EmpDTO" resultType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            SELECT
+                EMP_NUMBER AS empNumber,
+                EMP_NAME AS empName,
+                EMP_ID AS empId,
+                e.DEPT_CODE AS deptCode,
+                DEPT_NAME AS deptName,
+                POSITION_CODE AS positionCode,
+                c.CODE_NAME AS positionName,
+                JOIN_DATE AS joinDate,
+                WITHDRAW_DATE AS withdrawDate,
+                STATUS AS status,
+                c2.CODE_NAME AS statusName
+            FROM
+                EMP e,
+                CODE c,
+                CODE c2,
+                DEPARTMENT d
+            WHERE
+                e.POSITION_CODE = c.CODE
+              AND e.STATUS = c2.CODE
+              AND e.DEPT_CODE = d.DEPT_CODE
+      ]]>
+            <if test="deptCode != ''">
+               AND e.DEPT_CODE = #{deptCode}
+            </if>
+            <if test="positionCode != ''">
+               AND e.POSITION_CODE = #{positionCode}
+            </if>
+    </select>
+
+    <select id="withdrawEmp" parameterType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            UPDATE
+                EMP SET
+                WITHDRAW_DATE = #{withdrawDate},
+                STATUS = #{status}
+            WHERE EMP_NUMBER = #{empNumber}
+        ]]>
+    </select>
+
+    <select id="updateEmpInfo" parameterType="com.approval.test.hr.dto.EmpDTO">
+        <![CDATA[
+            UPDATE
+                EMP SET
+                        EMP_ID = #{empId},
+                        EMP_PW = md5(#{empPw}),
+                        DEPT_CODE = #{deptCode},
+                        POSITION_CODE = #{positionCode}
+            WHERE EMP_NUMBER = #{empNumber}
+        ]]>
+    </select>
+</mapper>

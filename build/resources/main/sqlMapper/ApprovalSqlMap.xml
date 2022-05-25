@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.approval.test.hr.mapper.ApprovalMapper">
+
+    <insert id="insertDocumentContent" parameterType="com.approval.test.hr.dto.ApprovalDTO">
+        <![CDATA[
+            INSERT INTO SUBMISSION_DOCUMENT(
+                DOCUMENT_NUMBER,
+                EMP_NUMBER,
+                TITLE,
+                DOCUMENT_CONTENT,
+                TYPE_CODE,
+                STATUS,
+                TOTAL,
+                SEQUENCE,
+                DATE
+            ) VALUES (
+            CASE
+                WHEN LENGTH(#{documentNumber}) > 8
+                    THEN #{documentNumber}
+                ELSE CONCAT(#{documentNumber}, (SELECT LPAD(e.COUNT, 2, "0") AS lpad
+                                         FROM (SELECT COUNT(DOCUMENT_NUMBER) AS count
+                                               FROM SUBMISSION_DOCUMENT
+                                               WHERE DOCUMENT_NUMBER LIKE CONCAT(#{documentNumber}, "%")) AS e)
+                      )
+            END,
+            #{empNumber},
+            #{title},
+            #{content},
+            #{type},
+            #{status},
+            #{total},
+            1,
+            #{date}
+            )
+            ON DUPLICATE KEY
+            UPDATE
+                EMP_NUMBER = #{empNumber},
+                TITLE = #{title},
+                DOCUMENT_CONTENT = #{content},
+                TYPE_CODE = #{type},
+                STATUS = #{status},
+                TOTAL = #{total},
+                SEQUENCE = IF ('ST02' like 'ST02', SEQUENCE = 1, SEQUENCE = SEQUENCE +1),
+                DATE = #{date}
+        ]]>
+    </insert>
+
+    <delete id="deleteApprovalExecutive" parameterType="com.approval.test.hr.dto.ApprovalDTO">
+        <![CDATA[
+            DELETE FROM APPROVAL_SIGN WHERE DOCUMENT_NUMBER = #{documentNumber}
+        ]]>
+    </delete>
+
+    <insert id="insertApprovalSign" parameterType="ApprovalSignDTO">
+
+            INSERT INTO APPROVAL_SIGN (
+                DOCUMENT_NUMBER,
+                EMP_NUMBER,
+                STATUS,
+                SEQUENCE
+            ) VALUES
+
+            <foreach collection="executives" separator=", " item="executive" index="index">
+                (
+                (SELECT MAX(document_number) FROM SUBMISSION_DOCUMENT),
+                #{executive.empNumber},
+                #{status},
+                #{index}+1
+                )
+            </foreach>
+
+    </insert>
+
+    <select id="selectWaitingDocumentList" parameterType="ApprovalSignDTO" resultType="ApprovalSignDTO">
+        <![CDATA[
+        SELECT
+            e.EMP_NAME AS empName,
+            s.DOCUMENT_NUMBER AS documentNumber,
+            DATE AS date,
+            s.TITLE AS title,
+            c.CODE_NAME AS status
+        FROM
+            EMP e,
+            SUBMISSION_DOCUMENT s,
+            APPROVAL_SIGN a,
+            CODE c
+        WHERE
+            s.EMP_NUMBER = e.emp_number
+          AND s.DOCUMENT_NUMBER = a.DOCUMENT_NUMBER
+          AND a.EMP_NUMBER = #{empNumber}
+          AND s.STATUS = 'ST01'
+          AND a.STATUS = 'ST01'
+          AND c.CODE = s.STATUS
+          AND s.SEQUENCE = a.SEQUENCE
+        ]]>
+    </select>
+
+    <select id="selectApprovalSigns" parameterType="ApprovalDTO" resultType="ApprovalDTO">
+        <![CDATA[
+        SELECT
+            EMP_NAME AS empName,
+            d.DEPT_NAME AS deptName,
+            c.CODE_NAME AS positionName,
+            a.SEQUENCE AS sequence,
+            TOTAL AS total
+        FROM EMP e,
+             CODE c,
+             DEPARTMENT d,
+             (SELECT
+                  EMP_NUMBER,
+                  a.SEQUENCE,
+                  TOTAL
+              FROM APPROVAL_SIGN a,
+                   SUBMISSION_DOCUMENT s
+              WHERE a.DOCUMENT_NUMBER = #{documentNumber}
+                AND a.DOCUMENT_NUMBER = s.DOCUMENT_NUMBER
+             ) a
+        WHERE e.EMP_NUMBER = a.EMP_NUMBER
+          AND e.POSITION_CODE = c.CODE
+          AND a.DEPT_CODE = d.DEPT_CODE
+        ]]>
+    </select>
+
+    <update id="updateApprovalSign">
+        <![CDATA[
+            UPDATE SUBMISSION_DOCUMENT s, APPROVAL_SIGN a
+            SET a.STATUS = #{status},
+                a.OPINION = #{opinion},
+                s.SEQUENCE = s.SEQUENCE +1
+            WHERE a.DOCUMENT_NUMBER = #{documentNumber}
+              AND s.DOCUMENT_NUMBER = #{documentNumber}
+              AND a.SEQUENCE = #{sequence}
+        ]]>
+    </update>
+
+    <update id="updateFinalApprovalSign" parameterType="HashMap">
+        <![CDATA[
+            UPDATE SUBMISSION_DOCUMENT SET STATUS = #{status}
+            WHERE DOCUMENT_NUMBER = #{documentNumber}
+        ]]>
+    </update>
+
+    <!-- 사용자 문서 신청 목록 -->
+    <select id="selectDocumentList" parameterType="EmpDTO" resultType="ApprovalDTO">
+        <![CDATA[
+            SELECT
+                EMP_NAME AS empName,
+                DOCUMENT_NUMBER AS documentNumber,
+                TITLE AS title,
+                s.STATUS AS status,
+                DATE AS date
+            FROM
+                EMP e, SUBMISSION_DOCUMENT s, CODE c
+            WHERE s.EMP_NUMBER = e.EMP_NUMBER
+              AND s.STATUS = c.CODE
+              AND s.EMP_NUMBER = #{empNumber}
+              AND s.STATUS in ('ST01', 'ST03', 'ST04')
+        ]]>
+    </select>
+
+    <!-- 임시저장문서에 관련된 쿼리 -->
+    <select id="selectTmpDocumentList" parameterType="EmpDTO" resultType="ApprovalDTO">
+        <![CDATA[
+        SELECT
+            EMP_NAME AS empName,
+            DOCUMENT_NUMBER AS documentNumber,
+            TITLE AS title,
+            c.CODE_NAME AS status,
+            DATE AS date
+        FROM EMP e, SUBMISSION_DOCUMENT s, CODE c
+        WHERE s.EMP_NUMBER = e.EMP_NUMBER
+          AND s.STATUS = c.CODE
+          AND s.emp_number = #{empNumber}
+          AND s.STATUS LIKE 'ST02'
+        ]]>
+    </select>
+
+    <select id="selectDocumentInfo" parameterType="ApprovalDTO" resultType="ApprovalSignDTO">
+        <![CDATA[
+        SELECT
+            DOCUMENT_NUMBER AS documentNumber,
+            EMP_NAME AS empName,
+            TITLE AS title,
+            s.TYPE_CODE AS type,
+            c.CODE_NAME AS typeName,
+            DOCUMENT_CONTENT AS content,
+            TOTAL AS total,
+            SEQUENCE AS sequence,
+            s.STATUS AS status
+        FROM
+            EMP e,
+            SUBMISSION_DOCUMENT s,
+            CODE c
+        WHERE s.EMP_NUMBER = e.EMP_NUMBER
+          AND s.TYPE_CODE = CODE
+          AND s.DOCUMENT_NUMBER = #{documentNumber}
+        ]]>
+    </select>
+
+    <select id="selectApprovalExecutives" parameterType="ApprovalDTO" resultType="ApprovalSignDTO">
+        <![CDATA[
+            SELECT
+                EMP_NAME AS empName,
+                e.EMP_NUMBER AS empNumber,
+                e.DEPT_CODE AS deptCode,
+                DEPT_NAME AS deptName,
+                e.POSITION_CODE AS positionCode,
+                c.CODE_NAME AS positionName,
+                SEQUENCE AS sequence,
+                a.STATUS AS status,
+                c2.CODE_NAME AS statusName,
+                OPINION AS opinion
+            FROM
+                APPROVAL_SIGN a,
+                EMP e,
+                DEPARTMENT d,
+                CODE c,
+                CODE c2
+            WHERE
+                a.EMP_NUMBER = e.EMP_NUMBER
+              AND e.POSITION_CODE = c.CODE
+              AND e.DEPT_CODE = d.DEPT_CODE
+              AND a.DOCUMENT_NUMBER = #{documentNumber}
+              AND a.STATUS = c2.CODE
+        ]]>
+    </select>
+
+    <!-- *********************************************************************************************************** -->
+
+    <delete id="deleteDocument" parameterType="String">
+        <![CDATA[
+            DELETE FROM SUBMISSION_DOCUMENT WHERE DOCUMENT_NUMBER = #{documentNumber};
+        ]]>
+    </delete>
+
+    <update id="updateDocumentContent" parameterType="ApprovalSignDTO">
+        <![CDATA[
+        UPDATE
+            SUBMISSION_DOCUMENT s,
+            APPROVAL_SIGN a
+        SET
+            s.TITLE = #{title},
+            s.DOCUMENT_CONTENT = #{content},
+            s.SEQUENCE = s.SEQUENCE -1,
+            s.STATUS = 'ST01',
+            a.STATUS = 'ST01'
+        WHERE
+            s.DOCUMENT_NUMBER = #{documentNumber}
+          AND a.DOCUMENT_NUMBER = #{documentNumber}
+        ]]>
+
+        <foreach collection="executives" separator=", " item="executive" index="index">
+            AND a.EMP_NUMBER = #{executive.empNumber}
+        </foreach>
+    </update>
+
+</mapper>
