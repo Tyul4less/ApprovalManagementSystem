@@ -54,15 +54,15 @@
 	</appender>
 
 	<!-- Email Appender -->
-	<appender name="EMAIL"
+	<!--<appender name="EMAIL"
 			  class="ch.qos.logback.classic.net.SMTPAppender">
-		<smtpHost>smtp.naver.com</smtpHost> <!-- 호스트 -->
-		<smtpPort>587</smtpPort> <!-- 포트번호 -->
+		<smtpHost>smtp.naver.com</smtpHost> &lt;!&ndash; 호스트 &ndash;&gt;
+		<smtpPort>587</smtpPort> &lt;!&ndash; 포트번호 &ndash;&gt;
 		<STARTTLS>true</STARTTLS>
-		<username>soso6826</username> <!-- SMTP 설정한 계정 -->
-		<password>password</password> <!-- SMTP 설정한 계정의 패스워드 -->
-		<to>soso6826@naver.com</to> <!-- 받을 사람의 이메일 주소 -->
-		<from>soso6826@naver.com</from> <!-- 보내는 사람의 이메일 주소 -->
+		<username>soso6826</username> &lt;!&ndash; SMTP 설정한 계정 &ndash;&gt;
+		<password>password</password> &lt;!&ndash; SMTP 설정한 계정의 패스워드 &ndash;&gt;
+		<to>soso6826@naver.com</to> &lt;!&ndash; 받을 사람의 이메일 주소 &ndash;&gt;
+		<from>soso6826@naver.com</from> &lt;!&ndash; 보내는 사람의 이메일 주소 &ndash;&gt;
 		<subject>TEST - logback : %logger{20} - %m</subject>
 
 		<layout class="ch.qos.logback.classic.html.HTMLLayout" />
@@ -77,7 +77,7 @@
 		for testing , comment in production, default asynchronousSending =
 		true
 		<asynchronousSending>false</asynchronousSending>
-	</appender>
+	</appender>-->
 
 
 	<!-- ERROR레벨 이상만 출력 -->
@@ -89,7 +89,7 @@
 
 	<!-- 로거 -->
 
-	<logger name="com.board" level="DEBUG" appender-ref="console" />
+	<logger name="com.approval.test.*" level="DEBUG" appender-ref="console" />
 	<logger name="jdbc.sqlonly" level="INFO" appender-ref="console-infolog" />
 	<logger name="jdbc.resultsettable" level="INFO" appender-ref="console-infolog" />
 

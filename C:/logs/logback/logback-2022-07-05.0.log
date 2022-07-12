@@ -1,0 +1,1038 @@
+01:20:07.772 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m41s41ms).
+01:29:10.362 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m2s633ms).
+01:31:18.061 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s714ms).
+01:33:25.899 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s832ms).
+01:35:04.008 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s109ms).
+01:37:10.684 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s676ms).
+01:39:18.385 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s693ms).
+03:10:32.677 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m44s286ms).
+03:16:27.487 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m54s810ms).
+03:25:12.133 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m14s647ms).
+03:27:17.935 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s821ms).
+03:29:25.792 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s853ms).
+03:31:04.090 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s297ms).
+03:33:12.346 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s248ms).
+03:35:20.373 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s27ms).
+05:01:13.044 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m22s663ms).
+06:48:59.423 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m46s379ms).
+08:37:15.751 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m46s431ms).
+09:29:02.989 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m17s357ms).
+10:17:26.208 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:17:26.211 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:17:27.157 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:17:27.159 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:17:27.161 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:17:41.668 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:17:41.671 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:17:42.654 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:17:42.655 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:17:42.657 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:17:51.500 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:17:51.502 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:17:52.596 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:17:52.598 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:17:52.600 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:35:50.197 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:35:50.200 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:35:51.256 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:35:51.258 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:35:51.259 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:37:25.981 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:37:25.984 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:37:26.844 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:37:26.846 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:37:26.848 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:37:49.831 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:37:49.834 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:37:50.840 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:37:50.841 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:37:50.843 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:38:18.456 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:38:18.458 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:38:19.364 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:38:19.366 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:38:19.368 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:45:00.945 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:45:00.947 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:45:02.695 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:45:02.697 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:45:02.698 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:48:21.396 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:48:21.399 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:48:22.753 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:48:22.754 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:48:22.755 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:48:34.632 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:48:34.634 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:48:35.691 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:48:35.693 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:48:35.694 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:49:47.623 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:49:47.625 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:49:48.746 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:49:48.748 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:49:48.750 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:52:46.978 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:52:46.980 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:52:48.260 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:52:48.262 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:52:48.263 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+10:54:51.330 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+10:54:51.333 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+10:54:52.416 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+10:54:52.417 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+10:54:52.419 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+11:45:33.847 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s787ms), soft-evicting connections from pool.
+12:09:28.211 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m53s992ms).
+12:11:06.928 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m38s717ms).
+12:13:14.532 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s604ms).
+12:15:22.397 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s863ms).
+12:17:29.984 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s581ms).
+12:19:07.573 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s589ms).
+12:37:14.345 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m36s763ms).
+12:55:34.941 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m50s603ms).
+13:01:59.204 WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m54s253ms).
+13:11:52.946 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:11:52.949 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:11:53.949 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:11:53.951 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:11:53.953 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:40:26.544 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:40:26.548 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:40:29.586 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6084 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+13:40:29.587 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+13:40:30.406 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:40:30.407 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+13:40:30.415 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:40:30.415 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+13:40:30.446 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:40:30.986 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+13:40:30.992 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+13:40:31.000 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.707 seconds (JVM running for 2.14)
+13:41:00.131 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:41:00.187 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:41:00.202 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:41:00.383 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:41:00.408 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:41:01.463 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:41:01.466 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:41:01.471 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:42:06.162 ERROR c.a.t.system.common.aop.CommonAspect - defaultExceptionHandler
+org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:160)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+13:43:29.182 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+13:43:29.185 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:43:33.838 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:43:33.841 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:43:34.940 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:43:34.942 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:43:34.944 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:44:27.441 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+13:44:27.467 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:50:08.558 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:50:08.563 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:50:09.650 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:50:09.652 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:50:09.654 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:50:26.601 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:50:26.604 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:50:27.930 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:50:27.932 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:50:27.934 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:51:05.121 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:51:05.124 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:51:05.914 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:51:05.916 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:51:05.918 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:51:34.743 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:51:34.749 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:51:35.925 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:51:35.927 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:51:35.928 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:57:27.859 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+13:57:27.862 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:58:18.270 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:58:18.276 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:58:20.533 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6199 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+13:58:20.534 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+13:58:21.348 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+13:58:21.349 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+13:58:21.357 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:58:21.358 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+13:58:21.388 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:58:21.964 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+13:58:21.970 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+13:58:21.980 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.774 seconds (JVM running for 2.184)
+13:58:41.033 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:58:41.087 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+13:58:41.101 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:58:41.277 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:58:41.302 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+13:58:42.012 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+13:58:42.016 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+13:58:42.020 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+13:58:51.746 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+13:58:51.749 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:00:23.912 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:00:23.917 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:00:25.918 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6217 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:00:25.919 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:00:26.742 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:00:26.743 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:00:26.751 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:00:26.751 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:00:26.786 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:00:27.358 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:00:27.364 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:00:27.372 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.726 seconds (JVM running for 2.063)
+14:00:29.209 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:00:29.270 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:00:29.287 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:00:29.476 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:00:29.502 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:00:30.447 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:00:30.450 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:00:30.454 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:00:38.053 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:00:38.055 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:04:50.586 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:04:50.589 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:04:53.053 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6241 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:04:53.054 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:04:53.870 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:04:53.870 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:04:53.878 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:04:53.879 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:04:53.909 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:04:54.441 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:04:54.447 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:04:54.455 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.714 seconds (JVM running for 2.344)
+14:05:10.862 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:05:10.914 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:05:10.930 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:05:11.107 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:05:11.131 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:05:12.055 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:05:12.059 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:05:12.062 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:05:20.883 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:05:20.885 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:08:30.552 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:08:30.559 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:08:32.147 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6260 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:08:32.148 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:08:33.002 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:08:33.003 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:08:33.011 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:08:33.011 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:08:33.045 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:08:33.635 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:08:33.644 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:08:33.656 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.794 seconds (JVM running for 2.151)
+14:08:35.056 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:08:35.122 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:08:35.144 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:08:35.336 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:08:35.363 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:08:36.825 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:08:36.829 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:08:36.832 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:08:44.565 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:08:44.568 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:08:45.742 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:08:45.745 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:08:46.821 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:08:46.823 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:08:46.826 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:10:36.093 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:10:36.096 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:10:38.307 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6286 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:10:38.308 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:10:39.185 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:10:39.186 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:10:39.194 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:10:39.195 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:10:39.226 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:10:39.762 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:10:39.768 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:10:39.776 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.788 seconds (JVM running for 2.173)
+14:10:45.368 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:10:45.426 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:10:45.433 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:10:45.613 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:10:45.629 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:30:44.169 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:30:44.172 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:30:45.765 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6596 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:30:45.766 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:30:46.639 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:30:46.640 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:30:46.648 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:30:46.648 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:30:46.680 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:30:47.247 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:30:47.252 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:30:47.261 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.761 seconds (JVM running for 2.157)
+14:31:39.890 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:31:39.970 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:31:39.990 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:31:40.193 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:31:40.219 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:31:41.343 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:31:41.348 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:31:41.352 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:31:50.024 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:31:50.028 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:33:58.569 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:33:58.574 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:34:00.119 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6626 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:34:00.120 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:34:01.072 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:34:01.072 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:34:01.080 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:34:01.080 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:34:01.112 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:34:01.661 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:34:01.667 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:34:01.677 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.846 seconds (JVM running for 2.218)
+14:34:04.558 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:34:04.621 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:34:04.638 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:34:04.831 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:34:04.857 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:34:06.006 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:34:06.011 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:34:06.014 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:34:09.956 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:34:09.963 ERROR c.a.t.system.common.aop.CommonAspect - Request: http://localhost:9999/board/editComment
+ raised org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.executor.ExecutorException: No setter found for the keyProperty 'seq' in com.approval.test.board.dto.request.EditCommentRequest.
+14:34:45.628 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:34:45.631 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:34:47.132 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6639 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:34:47.133 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:34:48.065 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:34:48.066 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:34:48.078 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:34:48.078 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:34:48.120 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:34:48.688 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:34:48.694 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:34:48.703 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.854 seconds (JVM running for 2.238)
+14:34:51.860 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:34:51.916 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:34:51.924 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:34:52.109 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:34:52.126 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:35:20.276 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:35:20.281 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:35:21.735 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6648 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:35:21.736 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:35:22.625 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:35:22.626 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:35:22.634 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:35:22.635 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:35:22.668 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:35:23.357 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:35:23.363 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:35:23.372 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.926 seconds (JVM running for 2.316)
+14:35:23.815 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:35:23.877 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:35:23.894 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:35:24.083 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:35:24.116 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:35:24.985 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:35:24.988 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:35:24.992 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:35:28.816 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:35:28.818 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:35:30.881 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:35:30.884 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:35:32.394 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:35:32.395 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:35:32.398 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:37:39.180 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:37:39.184 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:37:41.305 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6665 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:37:41.306 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:37:42.213 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:37:42.214 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:37:42.222 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:37:42.222 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:37:42.257 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:37:42.812 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:37:42.818 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:37:42.826 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.804 seconds (JVM running for 2.169)
+14:37:50.203 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6673 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:37:50.204 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:37:51.067 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:37:51.067 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:37:51.076 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:37:51.076 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:37:51.110 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:37:51.694 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:37:51.700 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:37:51.709 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.797 seconds (JVM running for 2.159)
+14:38:03.690 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6678 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:38:03.691 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:38:04.552 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:38:04.552 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:38:04.561 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:38:04.561 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:38:04.593 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:38:05.179 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:38:05.186 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:38:05.194 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.769 seconds (JVM running for 2.122)
+14:38:09.611 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:38:09.671 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:38:09.688 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:38:09.880 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:38:09.907 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:38:10.438 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:38:10.441 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:38:10.445 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:38:15.383 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:38:15.389 ERROR c.a.t.system.common.aop.CommonAspect - defaultExceptionHandler
+org.apache.ibatis.binding.BindingException: Mapper method 'com.approval.test.board.mapper.BoardMapper.editComment' has an unsupported return type: class com.approval.test.board.dto.request.EditCommentRequest
+	at org.apache.ibatis.binding.MapperMethod.rowCountResult(MapperMethod.java:118)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy74.editComment(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.approval.test.system.common.aop.CommonAspect.logPrint(CommonAspect.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy75.editComment(Unknown Source)
+	at com.approval.test.board.service.BoardService.editComment(BoardService.java:47)
+	at com.approval.test.board.BoardController.editComment(BoardController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14:42:16.804 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:42:16.810 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:42:18.298 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6707 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:42:18.300 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:42:19.247 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:42:19.248 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:42:19.257 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:42:19.257 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:42:19.295 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:42:19.892 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:42:19.898 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:42:19.908 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.885 seconds (JVM running for 2.241)
+14:42:27.232 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:42:27.292 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:42:27.300 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:42:27.485 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:42:27.504 ERROR c.a.t.system.common.aop.CommonAspect - defaultExceptionHandler
+org.apache.ibatis.binding.BindingException: Mapper method 'com.approval.test.board.mapper.BoardMapper.editComment' has an unsupported return type: class com.approval.test.board.dto.request.EditCommentRequest
+	at org.apache.ibatis.binding.MapperMethod.rowCountResult(MapperMethod.java:118)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy74.editComment(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.approval.test.system.common.aop.CommonAspect.logPrint(CommonAspect.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy75.editComment(Unknown Source)
+	at com.approval.test.board.service.BoardService.editComment(BoardService.java:47)
+	at com.approval.test.board.BoardController.editComment(BoardController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+14:43:02.269 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:43:02.276 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:43:21.462 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6735 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:43:21.464 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:43:22.645 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:43:22.646 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:43:22.654 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:43:22.654 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:43:22.688 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:43:23.228 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:43:23.234 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:43:23.243 INFO  com.approval.test.DemoApplication - Started DemoApplication in 2.124 seconds (JVM running for 2.488)
+14:43:39.843 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:43:39.902 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:43:39.909 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:43:40.096 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:43:40.112 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:43:56.826 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:43:56.831 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:43:58.283 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6745 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:43:58.284 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:43:59.159 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:43:59.160 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:43:59.168 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:43:59.168 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:43:59.206 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:43:59.925 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:43:59.941 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:43:59.959 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.948 seconds (JVM running for 2.369)
+14:44:13.824 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:44:13.909 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:44:13.929 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:44:14.151 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:44:14.181 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:44:14.549 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:44:14.553 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:44:14.556 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:44:21.124 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:44:21.127 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:44:35.528 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:44:35.533 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:44:37.436 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6757 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:44:37.438 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:44:38.272 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:44:38.273 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:44:38.281 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:44:38.281 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:44:38.312 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:44:38.893 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:44:38.899 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:44:38.907 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.729 seconds (JVM running for 2.086)
+14:44:41.082 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:44:41.154 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:44:41.172 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:44:41.371 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:44:41.399 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:44:41.840 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:44:41.844 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:44:41.847 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:44:46.550 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:44:46.552 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:45:15.714 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:45:15.719 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:45:17.579 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6769 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:45:17.580 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:45:18.453 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:45:18.453 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:18.461 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:45:18.462 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:45:18.494 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:45:19.063 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:45:19.068 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:19.077 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.782 seconds (JVM running for 2.155)
+14:45:21.551 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6774 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:45:21.552 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:45:22.382 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:45:22.383 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:22.391 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:45:22.391 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:45:22.423 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:45:22.988 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:45:22.994 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:23.002 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.728 seconds (JVM running for 2.086)
+14:45:25.452 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:45:25.512 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:45:25.528 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:45:25.720 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:45:25.747 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:45:26.415 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:45:26.420 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:45:26.424 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:45:29.993 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:45:29.996 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:45:54.388 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:45:54.393 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:45:56.527 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6781 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:45:56.528 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:45:57.401 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:45:57.402 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:57.410 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:45:57.411 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:45:57.445 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:45:58.006 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:45:58.013 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:45:58.022 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.851 seconds (JVM running for 2.308)
+14:46:00.017 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:46:00.125 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:46:00.144 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:46:00.363 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:46:00.389 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:46:00.867 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:46:00.871 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:46:00.875 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+14:46:04.761 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:46:04.765 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:46:32.976 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:46:32.979 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:46:53.657 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:46:53.662 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:46:55.642 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 6789 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+14:46:55.643 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+14:46:56.876 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+14:46:56.877 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:46:56.885 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:46:56.886 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+14:46:56.918 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:46:57.591 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+14:46:57.598 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+14:46:57.607 INFO  com.approval.test.DemoApplication - Started DemoApplication in 2.293 seconds (JVM running for 2.702)
+14:47:38.502 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:47:38.559 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editComment()
+14:47:38.566 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:47:38.758 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:47:38.785 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:47:41.914 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+14:47:41.927 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+14:47:43.097 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+14:47:43.101 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+14:47:43.104 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:01:44.650 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:01:44.653 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:01:45.909 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:01:45.911 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:01:45.914 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:02:10.298 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:02:10.303 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:02:11.125 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:02:11.127 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:02:11.129 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:04:48.161 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:04:48.163 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:04:49.626 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:04:49.628 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:04:49.630 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:06:31.564 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:06:31.568 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:06:32.346 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:06:32.348 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:06:32.349 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:07:19.330 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:07:19.333 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:07:20.267 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:07:20.269 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:07:20.270 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:07:20.801 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:07:20.804 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:07:21.402 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:07:21.404 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:07:21.405 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:08:05.905 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:08:05.907 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:08:06.633 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:08:06.635 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:08:06.636 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:11:23.527 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:11:23.631 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:11:25.296 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:11:25.298 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:11:25.299 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:12:44.757 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:12:44.760 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:12:48.871 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:12:48.872 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:12:48.874 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:13:26.378 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:13:26.381 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:13:27.385 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:13:27.386 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:13:27.387 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:13:42.290 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:13:42.292 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:13:43.613 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:13:43.614 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:13:43.616 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:14:25.232 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:14:25.235 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:14:26.084 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:14:26.086 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:14:26.087 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:14:33.483 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:14:33.488 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:14:34.520 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:14:34.522 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:14:34.523 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:20:10.507 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:20:10.510 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:20:11.775 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:20:11.777 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:20:11.779 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:22:53.496 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:22:53.500 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:22:54.417 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:22:54.425 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:22:54.427 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:23:21.583 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:23:21.585 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:23:22.340 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:23:22.342 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:23:22.343 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:23:37.626 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:23:37.642 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:23:38.472 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:23:38.474 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:23:38.475 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:24:56.404 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:24:56.406 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:24:58.318 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:24:58.320 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:24:58.321 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:26:05.291 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:26:05.294 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:26:06.546 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:26:06.548 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:26:06.549 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:26:14.690 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:26:14.692 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:26:15.577 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:26:15.578 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:26:15.580 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:28:17.882 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:28:17.885 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:28:18.634 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:28:18.635 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:28:18.636 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:34:37.852 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:34:37.856 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:34:38.548 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:34:38.549 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:34:38.551 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+15:51:34.629 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+15:51:34.632 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+15:51:36.126 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+15:51:36.128 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+15:51:36.129 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+16:02:48.684 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+16:02:48.686 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+16:03:26.890 INFO  c.a.t.system.common.util.FileUtils - 파일업로드 시도
+16:03:26.893 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.boardFileData()
+16:04:02.744 INFO  c.a.t.system.common.util.FileUtils - 파일업로드 시도
+16:04:02.754 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.boardFileData()
+16:04:02.761 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.boardFileData()
+16:19:02.139 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:06.445 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:09.602 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:09.765 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:09.932 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:10.107 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:19:14.688 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+16:19:14.691 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+16:19:16.541 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+16:19:16.543 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+16:20:42.999 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:20:43.004 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:20:45.223 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 7464 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+16:20:45.225 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+16:20:46.377 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+16:20:46.378 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:20:46.386 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:20:46.386 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:20:46.421 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:20:47.073 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+16:20:47.079 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:20:47.088 INFO  com.approval.test.DemoApplication - Started DemoApplication in 2.168 seconds (JVM running for 2.583)
+16:20:53.626 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:20:53.692 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+16:20:53.714 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:20:54.011 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:20:54.040 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+16:20:56.614 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+16:20:56.618 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+16:20:56.622 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+16:21:15.904 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:21:15.909 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:21:17.305 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 7473 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+16:21:17.306 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+16:21:18.160 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+16:21:18.160 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:21:18.169 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:21:18.169 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:21:18.202 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:21:18.776 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+16:21:18.782 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:21:18.791 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.756 seconds (JVM running for 2.106)
+16:21:21.828 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:21.891 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardList()
+16:21:21.908 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:21:22.104 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:21:22.132 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardListPaging()
+16:21:23.282 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoard()
+16:21:23.287 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getBoardCommentList()
+16:21:23.292 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.getFileList()
+16:21:36.066 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:21:36.070 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.deleteFileList()
+16:21:36.074 ERROR c.a.t.system.common.aop.CommonAspect - defaultExceptionHandler
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.approval.test.board.mapper.BoardMapper.deleteFileList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:61)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1688)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:61)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:56)
+	at com.sun.proxy.$Proxy74.deleteFileList(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.approval.test.system.common.aop.CommonAspect.logPrint(CommonAspect.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy75.deleteFileList(Unknown Source)
+	at com.approval.test.board.service.BoardService.editBoard(BoardService.java:54)
+	at com.approval.test.board.BoardController.editBoard(BoardController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:665)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:750)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:24:06.314 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:24:06.319 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:24:07.732 INFO  com.approval.test.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on GWONs-iMac.local with PID 7498 (/Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System/build/classes/java/main started by gwondaewon in /Users/gwondaewon/Workspace/ApprovalManagementSystem/javaProject/Approval_Management_System)
+16:24:07.733 INFO  com.approval.test.DemoApplication - No active profile set, falling back to default profiles: default
+16:24:08.617 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+16:24:08.618 INFO  org.apache.coyote.ajp.AjpNioProtocol - Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:24:08.626 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:24:08.626 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+16:24:08.657 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:24:09.238 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+16:24:09.244 INFO  org.apache.coyote.ajp.AjpNioProtocol - Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+16:24:09.253 INFO  com.approval.test.DemoApplication - Started DemoApplication in 1.821 seconds (JVM running for 2.178)
+16:24:11.277 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:24:11.347 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:24:11.355 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:24:11.541 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:24:11.557 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.deleteFileList()
+16:24:13.615 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.editBoard()
+16:24:13.619 INFO  c.a.t.system.common.aop.CommonAspect - com.approval.test.board.mapper.BoardMapper.deleteFileList()
+16:57:20.084 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:57:20.089 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
