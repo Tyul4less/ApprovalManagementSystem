@@ -1,5 +1,6 @@
 package com.approval.test.board.dto.request;
 
+import com.approval.test.system.common.util.dto.request.FileRequest;
 import lombok.Getter;
 import org.apache.ibatis.type.Alias;
 
@@ -13,6 +14,6 @@ public class BoardEditRequest{
     private Integer seq;
     private String title;
     private String contents;
-    private List<HashMap<String, String>> deleteFile;
+    private List<FileRequest> deleteFile;
 
 }

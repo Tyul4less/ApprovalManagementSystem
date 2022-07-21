@@ -6,9 +6,12 @@ import com.approval.test.board.dto.response.BoardDetailResponse;
 import com.approval.test.board.dto.response.BoardListResponse;
 import com.approval.test.board.service.BoardService;
 import com.approval.test.system.common.util.FileUtils;
+import com.approval.test.system.common.util.dto.request.FileRequest;
 import com.approval.test.system.common.util.dto.request.FileUploadRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -33,12 +36,14 @@ public class BoardController {
     static final String EDIT = "/edit";
     static final String DELETE = "/delete";
     //댓글
-    static final String SAVE_COMMENT = "/saveComment";
-    static final String GET_COMMENT = "/getComment";
-    static final String EDIT_COMMENT = "/editComment";
-    static final String DELETE_COMMENT = "/deleteComment";
+    static final String SAVE_COMMENT = "/comment/save";
+    static final String GET_COMMENT = "/comment/list";
+    static final String EDIT_COMMENT = "/comment/edit";
+    static final String DELETE_COMMENT = "/comment/delete";
     //파일
-    static final String FILE_UPLOAD = "/fileUpload";
+    static final String FILE_UPLOAD = "/file/upload";
+    static final String FILE_DOWNLOAD = "/file/download";
+    static final String FILE_DELETE = "/file/delete";
 
     //등록
     @PostMapping(POST)
@@ -104,10 +109,23 @@ public class BoardController {
     @PostMapping(FILE_UPLOAD)
     public void boardFileUpload(@RequestParam("files") List<MultipartFile> files, HttpServletRequest request) throws IOException {
         int seq = Integer.parseInt(request.getHeader("seq"));
-        System.out.println("seq = " + seq);
-        System.out.println("seq = " + files.toString());
         List<FileUploadRequest> fileDataList = FileUtils.FileUpload(files);
         boardService.boardFileData(fileDataList, seq);
     }
 
+    //게시판 파일 다운로드
+    @PostMapping(value = FILE_DOWNLOAD, produces = MediaType.APPLICATION_OCTET_STREAM_VALUE)
+    public ResponseEntity<Object> boardFileDownload(@RequestBody FileRequest file) throws IOException {
+        return FileUtils.fileDownload(file);
+    }
+
+    //게시판 파일 삭제
+    @PostMapping(value = FILE_DELETE)
+    public void boardFileDelete(@RequestBody List<FileRequest> fileList) throws IOException {
+        for(FileRequest file : fileList){
+            if(FileUtils.fileDelete(file)){
+                boardService.deleteBoardFile(file);
+            }
+        }
+    }
 }

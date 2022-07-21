@@ -29,50 +29,55 @@
         WHERE member_index = #{memberIndex}
     </select>
 
+
+    <!-- 게시판 목록 조회 -->
+    <select id="getBoardList" resultType="BoardResponse">
+        SELECT
+        seq
+        , title
+        , member_name AS memberName
+        , member_index AS memberIndex
+        , reg_dt AS regDT
+        , upd_dt AS updDT
+        FROM
+        board AS A,
+        user_info B
+        WHERE
+        A.member_index = 	B.member_idx
+        AND A.status = 'Y'
+        <if test="keyword != null">
+            AND title like CONCAT('%', #{keyword}, '%')
+        </if>
+        ORDER BY seq desc
+        limit #{startIndex}, #{rows}
+    </select>
+
     <!-- paging -->
     <select id="getBoardListPaging" resultType="int">
         SELECT
             COUNT(title) AS totalCount
         FROM
             board
-        ORDER BY seq
-    </select>
-
-    <!-- 게시판 목록 조회 -->
-    <select id="getBoardList" resultType="BoardResponse">
-        SELECT
-            seq
-            , title
-            , member_name AS memberName
-            , member_index AS memberIndex
-            , reg_dt AS regDT
-            , upd_dt AS updDT
-        FROM
-            board AS A,
-            user_info B
-        WHERE
-            A.member_index = 	B.member_idx
-        AND A.status = 'Y'
+        WHERE status = 'Y'
         <if test="keyword != null">
-        AND title like CONCAT('%', #{keyword}, '%')
+            AND title like CONCAT('%', #{keyword}, '%')
         </if>
-        ORDER BY seq desc
-            limit #{startIndex}, #{rows}
+        ORDER BY seq
     </select>
 
     <!-- 게시판 상세 조회 -->
     <select id="getBoard" resultType="BoardDetailResponse">
         SELECT
-            seq
-            , title
-            , member_name AS memberName
-            , A.member_index AS memberIndex
-            , contents
-            , title
-            , reg_dt
-            , upd_dt
+        seq
+        , title
+        , member_name AS memberName
+        , A.member_index AS memberIndex
+        , contents
+        , title
+        , reg_dt
+        , upd_dt
         FROM
-            board AS A,
+        board AS A,
             user_info B
         WHERE
             A.member_index = 	B.member_idx
@@ -90,10 +95,16 @@
     </update>
 
     <!-- 게시글 삭제(비활성화) -->
-    <update id="deleteBoard">
-        update board set
-            status = 'N'
-        where seq = #{seq}
+    <update id="disableBoard">
+        UPDATE board
+        SET status = 'N'
+        WHERE seq = #{seq}
+    </update>
+
+    <update id="disableFile">
+        UPDATE board_file_info
+        SET status = 'N'
+        WHERE seq = #{seq}
     </update>
 
     <!--############################################## 댓글 ##############################################-->
@@ -169,19 +180,20 @@
             seq,
             file_original_name,
             file_random_name,
-            file_url
+            file_url,
+            status
         ) values (
             #{seq},
             #{fileOriginalName},
             #{fileRandomName},
-            #{fileUrl}
+            #{fileUrl},
+            'Y'
         )
     </insert>
 
-    <delete id="deleteFileList">
+    <delete id="deleteBoardFile">
         delete from board_file_info
-        where seq = #{seq}
-          and file_random_name = #{fileRandomName}
+        where file_random_name = #{fileRandomName}
           and file_url = #{fileUrl}
     </delete>
 

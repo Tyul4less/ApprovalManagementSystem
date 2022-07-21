@@ -9,10 +9,7 @@ import org.apache.ibatis.type.Alias;
 @Setter
 @Getter
 @Alias("FileUploadRequest")
-public class FileUploadRequest {
+public class FileUploadRequest extends FileRequest {
 
     private int seq;
-    private String fileOriginalName;
-    private String fileRandomName;
-    private String fileUrl;
 }

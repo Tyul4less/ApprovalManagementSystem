@@ -1,23 +1,21 @@
 package com.approval.test.system.common.util;
+
+import com.approval.test.system.common.util.dto.request.FileRequest;
 import com.approval.test.system.common.util.dto.request.FileUploadRequest;
-import com.approval.test.system.common.util.dto.response.FileResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
-import org.springframework.http.*;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 @Slf4j
 @RestController
@@ -64,27 +62,35 @@ public class FileUtils {
         return array;
     }
 
-    @GetMapping (value="/fileDownload", produces = MediaType.APPLICATION_OCTET_STREAM_VALUE)
-    public static ResponseEntity<Object> boardFileDownload(@RequestParam String fileOriginalName, @RequestParam String localPath) {
+    public static ResponseEntity<Object> fileDownload(FileRequest fileData) throws IOException {
 
-        System.out.println("다운로드 진입"+fileOriginalName);
-        System.out.println("다운로드 진입"+localPath);
-        String path = "D:/dev/InteliJWorkSpace/Account4th/Account_SpringBoot/src/main/webapp"+localPath;
+        System.out.println("다운로드 진입");
+        String fileOriginalName = fileData.getFileOriginalName();
+        String fileRandomName = fileData.getFileRandomName();
+        String fileUrl = fileData.getFileUrl();
+        String path = fileUrl + "/" + fileRandomName;
+        System.out.println("path = " + path);
 
         try {
-            Path filePath = Paths.get(path);
-            Resource resource = new InputStreamResource(Files.newInputStream(filePath)); // 파일 resource 얻기
-
+            //Path filePath = Paths.get(path);
             File file = new File(path);
+            Resource resource = new InputStreamResource(Files.newInputStream(file.toPath())); // 파일 resource 얻기
+
+
+            System.out.println("file.getName() = " + file.getName());
 
             HttpHeaders headers = new HttpHeaders();
-            headers.add("Content-disposition","attachment;filename="+new String(fileOriginalName.getBytes(),"iso-8859-1"));
+            headers.add("Content-disposition","inline;filename="+fileOriginalName);
             //headers.setContentDisposition(ContentDisposition.builder("attachment").filename(fileOriname).build());  // 다운로드 되거나 로컬에 저장되는 용도로 쓰이는지를 알려주는 헤더
 
-            return new ResponseEntity<Object>(resource, headers, HttpStatus.OK);
+            return ResponseEntity.ok()
+                    .headers(headers)
+                    .contentLength(file.length())
+                    .body(resource);
         } catch(Exception e) {
             return new ResponseEntity<Object>(null, HttpStatus.CONFLICT);
         }
+
     }
 
     public static void FileDelete(List<HashMap<String, String>> deleteList) {
@@ -105,34 +111,32 @@ public class FileUtils {
         });
     }
 
-    public static void fileDelete(FileResponse fileResponse){//나중
+    public static Boolean fileDelete(FileRequest param){
 
-        File file = new File(fileResponse.getFileUrl());
-
+        String filePath = param.getFileUrl() + "/" + param.getFileRandomName();
+        File file = new File(filePath);
         if( file.exists() ){ //파일존재여부확인
-
             if(file.isDirectory()){ //파일이 디렉토리인지 확인
-
                 File[] files = file.listFiles();
-
-                for( int i=0; i<files.length; i++){
+                for(int i = 0; i< Objects.requireNonNull(files).length; i++){
                     if( files[i].delete() ){
-                        System.out.println(files[i].getName()+" 삭제성공");
+                        log.info(files[i].getName()+" 삭제성공");
+                        return true;
                     }else{
-                        System.out.println(files[i].getName()+" 삭제실패");
+                        log.info(files[i].getName()+" 삭제실패");
+                        return false;
                     }
                 }
-
             }
             if(file.delete()){
-                System.out.println("파일삭제 성공");
+                return true;
             }else{
-                System.out.println("파일삭제 실패");
+                log.info("파일삭제 실패");
+                return false;
             }
-
         }else{
             System.out.println("파일이 존재하지 않습니다.");
+            return false;
         }
-
     }
 }
